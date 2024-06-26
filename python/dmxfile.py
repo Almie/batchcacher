@@ -1,4 +1,4 @@
-from . import datamodel
+from . import datamodel #3rd party library for reading the DMX file format
 
 class DmxFile(object):
     def __init__(self, filepath):
